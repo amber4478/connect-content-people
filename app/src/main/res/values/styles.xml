@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabStyle">@style/customActionBarTabStyle</item>
+        <item name="actionBarTabBarStyle">@style/customActionBarTabBarStyle</item>
+        <item name="actionBarTabTextStyle">@style/customActionBarTabTextStyle</item>
+    </style>
+
+    <!--General Styles for the Action Bar-->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:background">@color/tab_background</item>
+        <item name="android:backgroundStacked">@color/tab_background</item>
+        <item name="android:backgroundSplit">@color/tab_highlight</item>
+    </style>
+
+    <!--Action Bar Title Text-->
+    <style name="TitleTextStyle"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#eeee</item>
+    </style>
+
+    <!--Bar Tab Style-->
+    <style name="customActionBarTabStyle" parent="android:Widget.ActionBar.TabView">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <!--Tab Bar Tab Style-->
+    <style name="customActionBarTabBarStyle" parent="android:Widget.ActionBar.TabBar">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <!--Tab Text Style-->
+    <style name="customActionBarTabTextStyle" parent="android:Widget.ActionBar.TabText">
+        <item name="android:padding">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+</resources>

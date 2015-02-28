@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MylanApp1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="tab_highlight">#2EB7ED</color>
+    <color name="tab_background">#032149</color>
+</resources>
