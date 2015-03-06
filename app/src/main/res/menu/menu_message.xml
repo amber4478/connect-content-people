@@ -1,0 +1,16 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.stoichiometrysolver.tyler.mylanapp1.MessageActivity">
+
+    <item android:id="@+id/action_newmessage"
+          android:title="Send"
+          android:icon="@drawable/ic_add_white_24"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/action_clear"
+          android:title="Clear All"
+          android:orderInCategory="0"
+          app:showAsAction="never"/>
+</menu>

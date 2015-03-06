@@ -1,0 +1,16 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.stoichiometrysolver.tyler.mylanapp1.NotificationActivity">
+
+    <item android:id="@+id/action_reload"
+          android:title="Reload"
+          android:icon="@drawable/ic_replay_white_24"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/action_clear"
+          android:title="Clear"
+          android:orderInCategory="0"
+          app:showAsAction="never"/>
+</menu>

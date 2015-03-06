@@ -5,11 +5,6 @@
     tools:context=".MainActivity">
 
     <!--Standard Settings Menu (with items)-->
-    <item
-        android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
 
     <!--Action Buttons-->
 </menu>

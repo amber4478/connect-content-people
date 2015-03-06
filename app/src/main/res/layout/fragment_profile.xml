@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<?xml version="1.0" encoding="UTF-8"?>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Profile"
-        android:id="@+id/textView5"
-        android:layout_gravity="center_horizontal" />
+    <LinearLayout android:clickable="false" android:weightSum="1" android:id="@+id/Linearlayout" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/imageView" android:layout_height="169dp" android:layout_width="169dp" android:layout_marginTop="10dp" android:layout_weight="0.07" android:layout_gravity="center_horizontal" android:src="@drawable/newprofpic"/>
+
+    <Button android:id="@+id/button" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="50dp" android:text="Personal " android:background="#0099CC" android:width="173dp"
+            android:textColor="@color/light"/>
+    <Button android:id="@+id/button2" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:text="Connections" android:background="#0099CC" android:width="173dp" style="?android:attr/buttonStyleSmall"
+            android:textColor="@color/light"/>
+    <Button android:id="@+id/button3" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:text="Skiils and Expertise" android:background="#0099CC" android:width="173dp" style="?android:attr/buttonStyleSmall"
+            android:textColor="@color/light"/>
+    <Button android:id="@+id/button4" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:text="Preferences" android:background="#0099CC" style="?android:attr/buttonStyleSmall"
+            android:textColor="@color/light"/>
+
 </LinearLayout>
